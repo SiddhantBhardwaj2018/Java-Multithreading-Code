@@ -22,7 +22,7 @@ public class RaceConditionsExample3 {
 
     private static Runnable getReadingRunnable(Counter counter){
         return () -> {
-            for(int i = 0;i < 5;i++){
+            for(int i = 0;i < 2;i++){
                 try {
                     Thread.sleep(1);
                 }catch (InterruptedException e){
